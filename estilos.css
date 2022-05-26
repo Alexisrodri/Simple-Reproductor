@@ -93,6 +93,10 @@ body{
     background-position: center;
 }
 
+.next .previous:hover{
+   background:#ffe;
+}
+
 .Play{
     outline:none;
     background:rgb(238, 62, 62) url(./multimedia/Images/pause.svg) no-repeat; 
