@@ -35,6 +35,7 @@ next.addEventListener('click',()=>{
      indexMusic++;
      indexMusic > playList.length ? indexMusic = 1 : indexMusic = indexMusic 
      loadMusic(indexMusic);
+     play.classList.add("Play");
      Audio.play()
 })
 
@@ -43,5 +44,6 @@ previous.addEventListener('click',()=>{
     indexMusic--;
     indexMusic < 1 ? indexMusic = playList.length : indexMusic = indexMusic 
     loadMusic(indexMusic);
+    play.classList.add("Play");
     Audio.play()
 })
