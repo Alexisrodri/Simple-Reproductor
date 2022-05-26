@@ -19,7 +19,7 @@ body{
     display:flex;
     justify-content:space-evenly;
     flex-direction:column;
-    background-image: linear-gradient(to right bottom, #393640, #343742, #2f3842, #2a3941, #273a3e, #2d4246, #32494d, #385155, #48626d, #5c7485, #75859c, #9295b1);
+    background-image: linear-gradient(to left top, #393640, #343742, #2f3842, #2a3941, #273a3e, #2d4246, #32494d, #385155, #48626d, #5c7485, #75859c, #9295b1);
     width:400px;
     border-radius:15px;
     padding:10px;
@@ -93,8 +93,10 @@ body{
     background-position: center;
 }
 
-.next .previous:hover{
-   background:#ffe;
+.next:hover,
+.previous:hover
+{
+    filter: drop-shadow(2px 4px 6px #4444dd) blur(1px) brightness(200);
 }
 
 .Play{
