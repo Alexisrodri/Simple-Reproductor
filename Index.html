@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./multimedia/Images/favicon.svg" >
+    <link rel="stylesheet" href="estilos.css">
+    <title>Reproductor</title>
+</head>
+<body> 
+    <section class="contenedor">
+        <picture class="picture">
+            <img src="" class="caratula" id="Image"/>
+            <figcaption class="Titulo" id="Title">Cannon Rock</figcaption>
+            <figcaption class="subtitulo" id="Artist"></figcaption>
+        </picture>
+        <audio src="./multimedia/cannonRock.mp3" controls loop id="Audio">
+        </audio>
+        <nav class="navegador">
+            <button class="bx previous" id="previous"></button>
+            <button class="bx play" id="play"></button>
+            <button class="bx next" id="next"></button>
+        </nav>
+    </section>
+</body>
+<script src="main.js"></script>
+<script src="./multimedia/Music.js"></script>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background:#223;
+    display:flex;
+    font-family: 'Caveat', cursive;
+    align-items:center;
+    justify-content:center;
+    color:#ffe;
+}
+
+.contenedor{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    background-image: linear-gradient(to right bottom, #393640, #343742, #2f3842, #2a3941, #273a3e, #2d4246, #32494d, #385155, #48626d, #5c7485, #75859c, #9295b1);
+    width:400px;
+    border-radius:15px;
+    padding:10px;
+    height:500px;
+}
+
+.contenedor h1{
+    text-align:center;
+}
+
+.picture{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    color:#000;
+    width:380px;
+    justify-content: center;
+    align-items:center;
+}
+
+.Titulo{
+    font-size:32px;
+    color:#fff;
+}
+
+.subtitulo{
+    font-size:24px;
+    color:#fff;
+}
+
+.caratula {
+    object-fit:cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.navegador {
+    height: 80px;
+    font-size: 30px;
+    position: relative;
+    bottom:50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bx{
+    border:none;
+    height:40px;
+    width:40px;
+    padding:10px;
+    border-radius:50%;
+    transition: .5s all ease-in-out;
+}
+
+.previous{
+    background: url(./multimedia/Images/previous.svg) no-repeat;
+    background-position: center;
+    background-blend-mode: hue;
+}
+
+
+.play{
+    background: url(./multimedia/Images/Play.svg) no-repeat;
+    background-position: center;
+}
+
+.next{
+    background: url(./multimedia/Images/next.svg) no-repeat;
+    background-position: center;
+}
+
+.Play{
+    outline:none;
+    background:rgb(238, 62, 62) url(./multimedia/Images/pause.svg) no-repeat; 
+    background-position: center;
+}
+
+#Audio{
+    visibility:hidden;
+}
